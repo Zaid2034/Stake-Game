@@ -27,12 +27,6 @@ export class BallManager {
             this.ctx.closePath();
         });
     }
-    // destroyBall(ball) {
-    //     const index = this.ballsArray.indexOf(ball);
-    //     if (index > -1) {
-    //         this.ballsArray.splice(index, 1);
-    //     }
-    // }
     addBall(startX){
         console.log('In add ball')
         const ball=new balls(startX,50,ballRadius,'red',this.ctx,this.obstacles,(index)=>{

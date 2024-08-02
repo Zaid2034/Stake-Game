@@ -2,7 +2,7 @@
 
 import {HEIGHT, obstaclesRadius,sinkWidth,WIDTH,NUM_SINKS} from './constant';
 import {pad} from './padding';
-const MULTIPLIERS= {
+export const MULTIPLIERS= {
   1: 16,
   2: 9,
   3: 2,
